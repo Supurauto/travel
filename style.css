@@ -45,7 +45,7 @@ body {
 }
 
 .ad {
-    background-color: #f5de4c; 
+    background-color: #f5de4c;
     color: rgb(0, 0, 0);
     padding: 30px;
     text-align: center;
@@ -86,12 +86,12 @@ body {
 }
 
 .subtitle {
-    color: #8e8e93;
+    color: #555558;
     font-size: 15px;
 }
 
 .dates {
-    color: #8e8e93;
+    color: #6c6c6e;
     font-size: 15px;
     white-space: nowrap;
 }
@@ -110,14 +110,17 @@ body {
     margin: 0 auto;
 }
 
-.nav {
-    padding: 8px 12px;
-    font-size: 12px;
-    color: #8e8e93;
-    text-align: center;
+/* Общие стили для всех иконок */
+.nav svg,
+.nav-active svg {
+    fill: #000000; /* Черный цвет для иконок */
 }
 
+/* Стиль для активной иконки */
 .nav-active {
-    color: #007aff;
-    font-weight: 500;
+    color: #007aff; /* Синий цвет для активного элемента */
+}
+
+.nav-active svg {
+    fill: #007aff; /* Синий цвет для активной иконки */
 }
