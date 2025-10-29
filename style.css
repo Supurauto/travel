@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    max-width: 390px;
+    margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.icon {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #f5de4c;
+    border-radius: 5px;
+}
+
+.search input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 200px;
+    background-color: #f9f9f9;
+}
+
+.main h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ad {
+    background-color: #f5de4c;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.year {
+    color: #8e8e93;
+    font-size: 17px;
+    margin-top: 16px;
+    display: block;
+}
+
+.main {
+    padding: 16px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    background: #ffffff;
+}
+
+.card-left {
+    flex: 1;
+    margin-right: 12px;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 3px;
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+.subtitle {
+    color: #555558;
+    font-size: 15px;
+}
+
+.dates {
+    color: #6c6c6e;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-top: 1px solid #e5e5ea;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.nav svg,
+.nav-active svg {
+    fill: #000000;
+}
+
+.nav-active {
+    color: #007aff;
+}
+
+.nav-active svg {
+    fill: #007aff;
+}
+
+.hero-section{
+    position: relative;
+}
+
+.image-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    
+} 
+
+.overlay-block{
+    position: relative;
+    margin-top: -60px;
+    z-index: 20;
+}
