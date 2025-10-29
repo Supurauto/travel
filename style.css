@@ -47,7 +47,7 @@ body {
 .ad {
     background-color: #f5de4c;
     color: rgb(0, 0, 0);
-    padding: 30px;
+    padding: 40px;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -125,21 +125,39 @@ body {
     fill: #007aff;
 }
 
-.hero-section{
+.hero {
     position: relative;
+    height: 20vh;
 }
 
-.image-overlay{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    
-} 
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
-.overlay-block{
-    position: relative;
-    margin-top: -60px;
-    z-index: 20;
+.overlay-block {
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+    right: 50px;
+    background-color: #c4c4c4;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+}
+
+.overlay-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+}
+
+.overlay-date {
+    font-size: 1rem;
+    color: #666;
+    text-align: left;
+    margin: 0;
 }
