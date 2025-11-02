@@ -6,7 +6,7 @@
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     max-width: 390px;
     margin: 0 auto;
     min-height: 100vh;
@@ -98,12 +98,13 @@ body {
     white-space: nowrap;
 }
 
-.bottom-navigation {
+.bottom_navigation {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     background: #ffffff;
+    border-bottom: none;
     border-top: 1px solid #e5e5ea;
     display: flex;
     justify-content: space-around;
@@ -142,7 +143,7 @@ body {
     bottom: -40px;
     left: 50px;
     right: 50px;
-    background-color: #c4c4c4;
+    background-color: #d5d5d5;
     border-radius: 12px;
     padding: 40px;
     text-align: center;
@@ -160,4 +161,126 @@ body {
     color: #666;
     text-align: left;
     margin: 0;
+}
+
+.expenses_header{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+.expenses_title{
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.expenses_filters{
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+
+.filter_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.expense_list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+}
+
+.expense_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.expense_item_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.expense_item_header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.expenses_item_number {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+    min-width: 20px;
+}
+.expense_item_name {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.expense_item_date {
+    font-size: 0.85rem;
+    color: #525252;
+    font-weight: 400;
+    margin-left: 16px; 
+}
+
+.expense_item_cost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.expense_item_amount {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.expense_item_receipt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px; 
+}
+
+.bot_nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-top: 1px solid #e5e5ea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.my_expenses{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #FFD700; 
+    padding: 8px 20px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 25px; 
+
 }
