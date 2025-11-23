@@ -367,7 +367,13 @@ body {
     margin-bottom: 20px;
 }
 
-
+.log_title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30%;
+    margin-bottom: 20px;
+}
 
 .input_field {
     padding: 0 16px;
@@ -422,4 +428,5 @@ body {
     color: #007aff;
     font-weight: 500;
 }
+
 
