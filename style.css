@@ -359,19 +359,11 @@ body {
     border-radius: 10px;
 }
 
-.reg_title{
+.logreg_title{
     text-align: center;
     font-size: 24px;
     font-weight: 700;
     margin-top: 20%;
-    margin-bottom: 20px;
-}
-
-.log_title{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 25%;
     margin-bottom: 20px;
 }
 
@@ -428,6 +420,7 @@ body {
     color: #007aff;
     font-weight: 500;
 }
+
 
 
 
