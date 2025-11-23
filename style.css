@@ -359,7 +359,7 @@ body {
     border-radius: 10px;
 }
 
-.reg_title{
+.logreg_title{
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -377,7 +377,7 @@ body {
     width: 100%;
     padding: 14px;
     border: none;
-    border-bottom: 2px solid #818181;
+    border-bottom: 2px solid #666666;
     font-size: 14px;
     outline: none;
 }
@@ -390,7 +390,7 @@ body {
     border-radius: 10px;
     text-align: center;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 15px;
 }
 
@@ -409,4 +409,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 16px;
+}
+
+.forgot_pass{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot_pass a{
+    color: #007aff;
+    font-weight: 500;
 }
