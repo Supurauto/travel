@@ -359,10 +359,6 @@ body {
     border-radius: 10px;
 }
 
-.reg_container{
-    max-width: 390px;
-}
-
 .reg_title{
     text-align: center;
     font-size: 24px;
@@ -408,3 +404,9 @@ body {
     font-weight: 500;
 }
 
+.header_logreg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+}
