@@ -480,6 +480,7 @@ body {
 }
 
 .create_button {
+    color: #000000;
     margin: 15px;
     width: 360px;
     background-color: #f5de4c;
@@ -505,3 +506,4 @@ body {
     border-bottom: 2px solid #ddd;
     position: relative;
 }
+
